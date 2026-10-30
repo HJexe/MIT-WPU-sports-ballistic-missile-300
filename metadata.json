@@ -1,0 +1,6 @@
+{
+  "name": "MIT-WPU Sports Credit Slot Sniper",
+  "description": "Precision slot booking sniper and 30-hour physical education credit tracker for MIT-WPU students.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

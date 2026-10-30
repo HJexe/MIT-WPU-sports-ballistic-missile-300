@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mit wpu sports sniper 3000</title>
+    <meta name="description" content="Precision slot booking sniper and 30-hour physical education credit tracker for MIT-WPU students." />
+    <meta property="og:title" content="Mit wpu sports sniper 3000" />
+    <meta property="og:description" content="Precision slot booking sniper and 30-hour physical education credit tracker for MIT-WPU students." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400..700&family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet" />
+    <script>
+      // Make window.fetch writable so third-party browser extensions or proxy interceptors
+      // do not throw "TypeError: Cannot set property fetch of #<Window> which has only a getter"
+      (function() {
+        try {
+          const originalFetch = window.fetch ? window.fetch.bind(window) : null;
+          let activeFetch = originalFetch;
+          Object.defineProperty(window, 'fetch', {
+            get: function() {
+              return activeFetch;
+            },
+            set: function(newFetch) {
+              activeFetch = newFetch;
+            },
+            configurable: true,
+            enumerable: true
+          });
+        } catch (_) {}
+
+        // Suppress external browser extension injection errors
+        window.addEventListener('error', function(event) {
+          if (event && event.filename && event.filename.includes('chrome-extension://')) {
+            event.stopImmediatePropagation();
+            event.preventDefault();
+            return true;
+          }
+        }, true);
+      })();
+    </script>
+  </head>
+  <body class="bg-black text-zinc-100 antialiased selection:bg-white selection:text-black min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
